@@ -1,0 +1,35 @@
+{
+  "name": "copilot-backend",
+  "version": "1.0.0",
+  "description": "This is a Copilot design for azure backend.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshavardhankonisa/AICopilot-AzureHackathon.git"
+  },
+  "keywords": [
+    "Azure",
+    "CosmosDB",
+    "Azure",
+    "Copilot",
+    "Azure",
+    "Hackathon"
+  ],
+  "author": "Harsha Vardhan Konisa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshavardhankonisa/AICopilot-AzureHackathon/issues"
+  },
+  "homepage": "https://github.com/harshavardhankonisa/AICopilot-AzureHackathon#readme",
+  "dependencies": {
+    "@azure/openai": "^1.0.0-beta.12",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.7.0"
+  }
+}
